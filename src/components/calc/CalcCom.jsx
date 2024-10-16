@@ -27,8 +27,12 @@ const CalcCom = () => {
         <>
             <div className="calculator">
                 <div className="display">
+                <div className="scroll-bar">
                     <div className="input">{input}</div>
+                </div>
+                <div className="scroll-bar">
                     <div className="result">{result}</div>
+                </div>
                 </div>
                 <div className="buttons">
                     {["7", "8", "9", "/"].map((item) => (<button key={item} onClick={() => buttonClick(item)}>{item}</button>))}
