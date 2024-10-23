@@ -1,5 +1,7 @@
 <h1 align="center">Simple Calculator</h1>
 
+![](src/assets/images/calcimg/calc.png)
+
 <h3>Objective:</h3>
 <p>Build a fully functional calculator using React that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The focus will be on implementing event handling using onClick for button clicks to perform
 </p>
